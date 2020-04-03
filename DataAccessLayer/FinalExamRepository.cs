@@ -5,7 +5,7 @@ using System.Text;
 
 namespace JasonFinalExam.DataAccessLayer
 {
-    class FinalExamRepository<T> : IDataRepository<T> where T : class
+    public class FinalExamRepository<T> : IDataRepository<T> where T : class
     {
         private FinalExameDbContext _context;
 
